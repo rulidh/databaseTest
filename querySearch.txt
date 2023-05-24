@@ -1,0 +1,1 @@
+Bagaimana cara agar output yang keluar pada SQL hanya ketika id yang muncul di tabel lain lebih dari satu
