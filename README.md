@@ -36,6 +36,4 @@ Lalu terdapat kondisi agar hanya menampilkan yang status pada map_user_hobby nya
 untuk function juga, dimana yang saya pakai adalah function COUNT() untuk kondisi users.id yang tampil di map_user_hobby lebih dari 1.
 
 Bisa dilihat bahwa yang tampil adalah users 'Garmuth' dan 'Goliath' yang memiliki hobi lebih dari satu di pertanyaan sebelumnya.
-![WhatsApp Image 2023-05-24 at 14 48 37](https://github.com/rulidh/finplan-backendTest/assets/94828760/2152ee74-d1bb-422a-aa61-857576840d69)
-
-
+![img](https://github.com/rulidh/finplan-backendTest/blob/main/img/Level%20Average.jpg)
