@@ -21,7 +21,7 @@ Lalu terdapat kondisi dimana hobbies.id = 1, 2, dan 3 untuk membagi tabel yang t
 Lalu saya grupkan memakai users.gender agar COUNT(users.gender) bisa berfungsi.
 
 Bisa dilihat, terlepas dari status map_user_hobby yang aktif atau tidak, perbandingan wanita dengan pria pada hobi pertama adalah 3:1, pada hobi kedua adalah 2:5 dan pada hobi ketiga adalah 2:5
-![WhatsApp Image 2023-05-24 at 15 05 06](https://github.com/rulidh/finplan-backendTest/assets/94828760/9f3a2c5c-98f9-45e6-9bd3-867fb231ec7b)
+![img](https://github.com/rulidh/finplan-backendTest/blob/main/img/Gender%20Total%20on%20Hobbies.jpg)
 
 Lalu pertanyaan selanjutnya adalah buat query untuk menghitung jumlah hobby dari setiap user yang masih aktif dengan output kolom name dan total (banyaknya hobi setiap users.name)
 Disini saya menampilkan users.name dan COUNT(users.id) yang diberia alias yaitu total. Lalu saya memakai JOIN dengan map_user_hobby dengan foreign key map_user_hobby.id_user = users.id.
