@@ -28,7 +28,7 @@ Disini saya menampilkan users.name dan COUNT(users.id) yang diberia alias yaitu 
 Lalu terdapat kondisi dimana map_user_hobby.status = 'active' untuk memisahkan user yang memiliki hobi yang statusnya sudah deleted
 
 Bisa dilihat bahwa users.name 'Lanaya' tidak tertampil dikarenakan hobi dari users.name 'Lanaya' tidak aktif atau 'deleted'.
-![WhatsApp Image 2023-05-24 at 13 59 29](https://github.com/rulidh/finplan-backendTest/assets/94828760/4e1d765c-ec4a-4c11-b715-af6773903d99)
+![img](https://github.com/rulidh/finplan-backendTest/blob/main/img/Hobbies%20on%20Active%20User.jpg)
 
 Dilanjut dengan pertanyaan terakhir yaitu menghitung level rata-rata tiap user dari hobi yang dimiliki, ketika user memiliki hobi lebih dari 1.
 Disini saya menampilkan users.name dan level_avg yaitu function AVG() untuk mendapatkan rata-rata dari hobbies.level. Lalu saya memakai JOIN users dengan map_user_hobby dan JOIN hobby dengen map_user_hobby.
