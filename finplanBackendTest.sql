@@ -9,7 +9,7 @@ CREATE TABLE hobbies (
     id BIGSERIAL NOT NULL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     level NUMERIC(10)
-);
+);  
 
 CREATE TABLE map_user_hobby (
     id BIGSERIAL NOT NULL PRIMARY KEY,
