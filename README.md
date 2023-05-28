@@ -12,7 +12,7 @@ Lalu pada ubuntu saya mengatifkan server untuk menjalankan postgreSQL, lalu masu
 Selanjutnya saya membuat database yaitu finplan-backendTest, dan connect kedalam database menggunakan '\c'. Dilanjut dengan meng-import file finplanBackendTest.sql dengan menggunakan '\i' dan direktori
 tempat saya menyimpan file sql tersebut. Bisa dilihat pada gambar bawa tabel telah terbuat dan data-data yang dibutuhkan sudah ter-input.
 
-![WhatsApp Image 2023-05-24 at 13 23 52](https://github.com/rulidh/finplan-backendTest/assets/94828760/1b1c4190-0d01-43e5-8918-c98e832227c9)
+![img](https://github.com/rulidh/finplan-backendTest/blob/main/img/Create%20Table%20and%20Input%20Value.jpg)
 
 Dilanjut dengan menjawab pertanyaan selanjutnya, yaitu untuk membuat query untuk menghitung jumlah user masing-masing gender pada suatu hobby tertentu.
 Disini saya menampilkan gender dari users dengan users.gender dan banyaknya users.gender yang diberi nama total dengan COUNT(users.gender).
